@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Proyecto 1</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <link rel="stylesheet" href="assets/css/proyectos.css"/>
+    
+</head>
+<body>
+    <section class="proyectos-cotenedor">
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <!-- Nav -->
+			{{> navbar}}
+    </div>
+
+    <section id="proyectos-resumen" class="proyectos-resumen">
+        <div class="contenido-proyecto">
+            <h2>Simulador de Gmail</h2><br>
+            <p>
+                Este proyecto es un simulador de envio de gmail, nos presenta una interfaz 
+                con 3 campos campos para rellenar uno para introducir el gmail
+                de la persona a la que le enviaremos el gamil, otro campo es para el asunto
+                y el ultimo campo para el mensaje. Despues de haber llenado todos los campos
+                ya podemos enviar el gamil si tratamos de enviar sin antes haber llenado al menos un campo
+                no podremos ennviar el gmail,  por ultimo tenemos la opcion de resetear el formulario.
+            </p>
+            <br>
+            <p>
+                En este proyecto fue creado con Html Css y javascript, 
+                se trabaja validacion de formularios porque si tratamos en enviar sin antes 
+                haber llenado los campos solicitados no vamos a poder enviar el gmail, 
+                tambien trabaja con eventos.            
+            </p>       
+    </section>
+
+    <main class="contenido-principal contenedor ">
+        <h3>Imagenes del sitio</h3>
+
+        <ul class="galeria">
+            <li>
+                <a href="images/enviargmail/1.png">
+                    <img src="images/enviargmail/1.png" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="images/enviargmail/2.png">
+                    <img src="images/enviargmail/2.png" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="images/enviargmail/3.png">
+                    <img src="images/enviargmail/3.png" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="images/enviargmail/4.png">
+                    <img src="images/enviargmail/4.png" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="images/enviargmail/5.png">
+                    <img src="images/enviargmail/5.png" alt="imagen galeria">
+                </a>
+            </li>
+
+            <li>
+                <a href="images/enviargmail/6.png">
+                    <img src="images/enviargmail/6.png" alt="imagen galeria">
+                </a>
+            </li>
+        </ul>
+
+    </section>
+        
+    </main>
+    
+    <!-- Footer -->
+			{{> footer}}
+
+</body>
+</html>
